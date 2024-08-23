@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BOX ICON -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!-- REMIx ICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <!-- AOS ANIMATION -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- CSS -->
+     <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+     <header>
+        <a href="#" class="logo">
+            <img src="./assets/img/logo.png" alt="">
+        </a>
+
+        <ul class="nav__list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        
+        <div class="right__content">
+            <a href="#" class="nav__btn">Sign In</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+     </header>
+
+     <main>
+        <section class="hero">
+            <div class="hero__text">
+                <h5 data-aos="fade-right" data-aos-duration="1400">#Coffee for hot days</h5>
+                <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200">- IBS Coffee</h1>
+                <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300">Boots your productivity and buid your mood with a glass of coffee in the morning. Coffee has a stimulating effect.</p>
+
+                <div class="main__hero" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="400">
+                    <a href="#" class="btn">Order</a>
+                    <a href="#" class="price">
+                        $16.00 | <span>Regular Price</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero__image" data-aos="zoom-in" data-aos-duration="1400">
+                <img src="./assets/img/hero.png"     alt="">
+            </div>
+        </section>
+
+        <div class="social__icons">
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="600">
+                <i class="ri-facebook-fill"></i>
+            </a>
+
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="700">
+                <i class="ri-youtube-fill"></i>
+            </a>
+            <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="800">
+                <i class="ri-twitter-fill"></i>
+            </a>
+        </div>
+
+        <div class="scroll" data-aos="zoom-out-down" data-aos-duration="1400" data-aos-delay="550">
+            <a href="#">
+                <i class="ri-scroll-to-bottom-line"></i>
+                Scroll Down
+            </a>
+        </div>
+     </main>
+
+     
+    
+    <!-- JS LINK -->
+     <script src="./assets/js/main.js"></script>
+
+
+     <!-- AOS ANIMATION -->
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init({
+        offset : 1
+       });
+     </script>
+</body>
+</html>
